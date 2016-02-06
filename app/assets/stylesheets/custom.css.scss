@@ -32,8 +32,11 @@ $navbar-default-bg:#483D8B;
 
 .jumbotron
 {
-    background-image:asset-url('site-background.jpg');
-    height: 550px;
+    background-image:asset-url('2.jpg');
+    height: 650px;
+    max-width:100%;
+    border:0;
+    alt:"Homepage background";
     
 }
 
