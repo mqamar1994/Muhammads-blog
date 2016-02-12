@@ -1,7 +1,15 @@
-$navbar-default-bg:#483D8B;
+$navbar-default-bg:#800000;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+
+body {
+    overflow-x: hidden;
+}
+
+
 
 #logo
 {
@@ -19,12 +27,6 @@ $navbar-default-bg:#483D8B;
     text-decoration: none;
 }
 
-#articles
-{
-    color: #fff;
-    font-weight: bold;
-}
-
 .center
 {
     text-align:center;
@@ -32,12 +34,10 @@ $navbar-default-bg:#483D8B;
 
 .jumbotron
 {
-    background-image:asset-url('2.jpg');
+    background-image:asset-url('3.jpg');
     height: 650px;
-    max-width:100%;
     border:0;
     alt:"Homepage background";
-    
 }
 
 .jumbotron h1 {
