@@ -35,8 +35,11 @@ body {
 .jumbotron
 {
     background-image:asset-url('3.jpg');
+    background-repeat:no-repeat;
     height: 580px;
-    margin-top:-72px;
+    margin-top:-65px;
+    margin-bottom:-20px;
+    margin-left:35px;
     border:0;
     alt:"Homepage background";
 }
